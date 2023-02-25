@@ -17,7 +17,7 @@ int main(void)
 		a = b;
 		b = temp;
 		printf("%li", temp);
-		if (i != 49)
+		if (i != 47)
 			printf(", ");
 	}
 	putchar('\n');
