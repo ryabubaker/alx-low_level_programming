@@ -11,7 +11,7 @@ int main(void)
 	long int b = 2;
 
 	printf("%li, %li, ", a, b);
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 		temp = a + b;
 		a = b;
