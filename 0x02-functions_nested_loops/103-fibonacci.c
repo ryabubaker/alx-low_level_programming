@@ -9,10 +9,11 @@
 int main(void)
 {
 	long int i, a, b, c, res;
+
 	a = res = 0;
 	i = b = 1;
 
-	while(i++)
+	while (i++)
 	{
 		c = a + b;
 		a = b;
