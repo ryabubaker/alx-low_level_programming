@@ -11,11 +11,11 @@ int main(void)
 
 	res = 0;
 
-	for (i = 0; i < 1024; i++)
+	for (i = 1; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
-			res = res + i;
+			res += i;
 	}
-	printf("%i\n", i);
+	printf("%i\n", res);
 	return (0);
 }
