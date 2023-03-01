@@ -2,7 +2,6 @@
 /**
  * *_strcat - concatenates two strings.
  * @dest: destination
- * @char: character
  * @src: source
  * Return: concatenated string
  */
